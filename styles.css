@@ -80,7 +80,7 @@ p{color:var(--muted)}
   align-items:center;
 }
 
-/* --- MODIFICĂRI AICI --- */
+/* --- MODIFICARE STRICT iframe DIMENSIUNI --- */
 .hero-card{
   display:flex;
   justify-content:center;
@@ -90,10 +90,10 @@ p{color:var(--muted)}
 .hero-card iframe{
   border-radius:var(--radius);
   width:100%;
-  max-width:900px;  /* iframe mai mare */
-  height:500px;     /* înălțime mărită */
+  max-width:650px; /* îl faci mai lat DAR fără să depășească secțiunea */
+  height:420px;    /* înălțime puțin mai mare */
 }
-/* --- SFÂRȘIT MODIFICĂRI --- */
+/* --- FINAL MODIFICARE --- */
 
 .section{
   margin-top:60px;
